@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+body main {
+  position: relative;
+}
+
+body main .t1 {
+  width: 50%;
+}
+
+body main .t1 img {
+  width: 15%;
+}
+
+body main .t1 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  font-size: 1vw;
+  z-index: 1;
+}
+
+body main .t2 {
+  background-image: url("../img/Group10.png");
+  background-size: 180% 120%;
+  background-position: bottom left;
+  border: 2px dashed red;
+  position: absolute;
+  width: 50vw;
+  height: 75vw;
+  right: 0;
+  top: 0;
+}
+
+body .group {
+  background-image: url("../img/Group 65.png");
+  background-size: 180%;
+  background-position: right;
+  border: 2px dashed red;
+  position: absolute;
+  width: 50vw;
+  height: 115.9vw;
+  left: 0;
+  top: 60vw;
+}
+
+body .group1 {
+  background-image: url("../img/Group 66.png");
+  background-size: 150%;
+  background-position: left;
+  border: 2px dashed red;
+  position: absolute;
+  width: 50vw;
+  height: 83.5vw;
+  right: 0;
+  top: 180vw;
+}
+
+body .group2 {
+  background-image: url("../img/Group 67.png");
+  background-size: 150%;
+  background-position: right;
+  border: 2px dashed red;
+  position: absolute;
+  width: 50vw;
+  height: 74.8vw;
+  left: 0;
+  top: 270vw;
+}
+
+body .group3 {
+  background-image: url("../img/Group 63.png");
+  background-size: 150%;
+  background-position: left;
+  border: 2px dashed red;
+  position: absolute;
+  width: 50vw;
+  height: 83.5vw;
+  right: 0;
+  top: 345vw;
+}
+
+body .group4 {
+  background-image: url("../img/Group 61.png");
+  background-size: 150%;
+  background-position: right;
+  border: 2px dashed red;
+  position: absolute;
+  width: 50vw;
+  height: 74.8vw;
+  left: 0;
+  top: 429vw;
+}
+
+body .group5 {
+  background-image: url("../img/Group 53.png");
+  background-size: 150%;
+  background-position: left;
+  border: 2px dashed red;
+  position: absolute;
+  width: 50vw;
+  height: 83.5vw;
+  right: 0;
+  top: 504vw;
+}
+
+body .group6 {
+  background-image: url("../img/Group 64.png");
+  background-size: 150%;
+  background-position: right;
+  border: 2px dashed red;
+  position: absolute;
+  width: 50vw;
+  height: 74.8vw;
+  left: 0;
+  top: 500vw;
+}
+/*# sourceMappingURL=style.css.map */
