@@ -32,7 +32,6 @@ body main .t2 {
   background-image: url("../img/Group10.png");
   background-size: 180% 120%;
   background-position: bottom left;
-  border: 2px dashed red;
   position: absolute;
   width: 50vw;
   height: 75vw;
@@ -44,7 +43,6 @@ body .group {
   background-image: url("../img/Group 65.png");
   background-size: 180%;
   background-position: right;
-  border: 2px dashed red;
   position: absolute;
   width: 50vw;
   height: 115.9vw;
@@ -56,7 +54,6 @@ body .group1 {
   background-image: url("../img/Group 66.png");
   background-size: 150%;
   background-position: left;
-  border: 2px dashed red;
   position: absolute;
   width: 50vw;
   height: 83.5vw;
@@ -68,7 +65,6 @@ body .group2 {
   background-image: url("../img/Group 67.png");
   background-size: 150%;
   background-position: right;
-  border: 2px dashed red;
   position: absolute;
   width: 50vw;
   height: 74.8vw;
@@ -80,7 +76,6 @@ body .group3 {
   background-image: url("../img/Group 63.png");
   background-size: 150%;
   background-position: left;
-  border: 2px dashed red;
   position: absolute;
   width: 50vw;
   height: 83.5vw;
@@ -92,7 +87,6 @@ body .group4 {
   background-image: url("../img/Group 61.png");
   background-size: 150%;
   background-position: right;
-  border: 2px dashed red;
   position: absolute;
   width: 50vw;
   height: 74.8vw;
@@ -104,7 +98,6 @@ body .group5 {
   background-image: url("../img/Group 53.png");
   background-size: 150%;
   background-position: left;
-  border: 2px dashed red;
   position: absolute;
   width: 50vw;
   height: 83.5vw;
@@ -114,13 +107,23 @@ body .group5 {
 
 body .group6 {
   background-image: url("../img/Group 64.png");
-  background-size: 150%;
+  background-size: 180%;
   background-position: right;
-  border: 2px dashed red;
   position: absolute;
-  width: 50vw;
-  height: 74.8vw;
+  width: 30vw;
+  height: 67.3vw;
   left: 0;
-  top: 500vw;
+  top: 580vw;
+}
+
+body .group8 {
+  background-image: url("../img/Group10.png");
+  background-size: 180%;
+  background-position: left;
+  position: absolute;
+  width: 30vw;
+  height: 54vw;
+  right: 0;
+  top: 600vw;
 }
 /*# sourceMappingURL=style.css.map */
