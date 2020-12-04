@@ -1,0 +1,109 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: rgba(255, 255, 255, 0.87);
+}
+
+body .navbar .logo {
+  margin: .5rem;
+}
+
+body .navbar .toggle-botton {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  width: 30px;
+  height: 21px;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+body .navbar .toggle-botton:hover {
+  background-color: rgba(26, 24, 24, 0.678);
+}
+
+body .navbar .linki ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .navbar .linki ul li {
+  list-style: none;
+}
+
+body .navbar .linki ul li a {
+  font-size: 1vw;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+  display: block;
+  padding: 1rem;
+}
+
+body .navbar .linki ul li:hover {
+  background-color: rgba(26, 24, 24, 0.678);
+}
+
+@media (max-width: 400px) {
+  body .toggle-botton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .linki {
+    display: none;
+    width: 100%;
+  }
+  body .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  body .navbar .linki.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .navbar .linki ul {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .navbar .linki ul li {
+    text-align: center;
+  }
+  body .navbar .linki ul li a {
+    padding: .5rem 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
