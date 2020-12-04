@@ -30,8 +30,6 @@ body .navbar .toggle-botton {
   position: absolute;
   top: .75rem;
   right: 1rem;
-  width: 30px;
-  height: 21px;
   display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -69,15 +67,6 @@ body .navbar .linki ul li:hover {
 }
 
 @media (max-width: 400px) {
-  body .toggle-botton {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  body .linki {
-    display: none;
-    width: 100%;
-  }
   body .navbar {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -86,6 +75,21 @@ body .navbar .linki ul li:hover {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+  }
+  body .navbar .toggle-botton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .navbar .linki {
+    display: none;
+    width: 100%;
   }
   body .navbar .linki.active {
     display: -webkit-box;
