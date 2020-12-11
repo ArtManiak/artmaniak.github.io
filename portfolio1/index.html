@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,29 +8,88 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
-    <script src="js/script.js"></script>
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-           <div class="logo">LOGO</div>
-           <a href="#" class="toggle-botton"><i class="fas fa-bars"></i></a>
-           <div class="linki">
-               <ul>
-                   <li><a href="#">Start</a></li>
-                   <li><a href="#">O mnie</a></li>
-                   <li><a href="#">Umiejętności</a></li>
-                   <li><a href="#">Portfolio</a></li>
-                   <li><a href="#">Kontakt</a></li>
-               </ul>
-           </div>
-        </nav>
-    </header>
-    <main>
-        
-    </main>
-    <footer>
+    <link rel="shortcut icon" href="img/logo-arturhaber.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><img src="img/logo-arturhaber.png" alt="logo">
+            <h1>Artur Haber</h1>
+        </div>
+        <a href="#" class="toggle-botton"><i class="fas fa-bars"></i></a>
+        <div class="linki">
+            <ul>
+                <li><a href="#home">STRONA GŁÓWNA</a></li>
+                <li><a href="#about_me">O MNIE</a></li>
+                <li><a href="#skills">UMIEJĘTNOŚCI</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">KONTAKT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header id="home">
+        <section class="home-photo"><img src="img/GRAFIKA - 1.png" alt="img"></section>
+        <article>
+            <h3>Witaj!</h3>
+            <h1>Jestem Artur Haber!</h1>
+            <h2>> Junior Front end developer</h2>
+
+
+        </article>
+    </header>
+
+    <main id="about_me">
+        <article>
+            <section class="photo"><img src="img/ZDJĘCIE.png" alt="my_photo">
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae inventore soluta, aspernatur temporibus nisi possimus porro harum dolores nulla alias quasi odit assumenda accusamus! Dolorem magni facilis ipsum non animi.</p>
+                    <a href="file/Artur Haber CV.pdf">
+                        <div class="button">MOJE CV</div>
+                    </a>
+                </section>
+            </section>
+        </article>
+    </main>
+    <article class="article" id="skills">
+        <h1>W CZYM PRACUJĘ?</h1>
+        <section><img src="img/SEKCJA 3.png" alt="języki"></section>
+    </article>
+    <article class="article_portfolio" id="portfolio">
+        <h1>MOJE PORTFOLIO</h1>
+        <h2>W budowie</h2>
+    </article>
+    <section class="contact" id="contact">
+        <h1>CHCESZ DOWIEDZIEĆ SIĘ O MNIE WIĘCEJ?</h1>
+        <h2>Skontaktuj się ze mną!</h2>
+        <h1>ARTUR HABER</h1>
+        <h1>arturhaber@techflow.pl</h1>
+        <h1>+48 515 914 818</h1>
+        <h2>Lub odezwij się w social mediach!</h2>
+        <div class="socials">
+            <a href="#">
+                <div class="social"><i class="fab fa-facebook-f"></i> </div>
+            </a>
+            <a href="#">
+                <div class="social"><i class="fab fa-linkedin-in"></i> </div>
+            </a>
+            <a href="#">
+                <div class="social"><i class="fab fa-twitter"></i> </div>
+            </a>
+            <a href="#">
+                <div class="social"><i class="fab fa-github"></i> </div>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2020 Artur Haber<p></p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
