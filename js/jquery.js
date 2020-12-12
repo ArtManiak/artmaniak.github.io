@@ -23,11 +23,10 @@ const $doc = $(document);
   
  }
 
- function nav(){
+ 
 $('.toggle-botton').click(function() {
  
   $('.linki').slideToggle();
  
 });
 $('.linki').hide();
-}
