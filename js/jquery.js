@@ -29,4 +29,13 @@ $('.toggle-botton').click(function() {
   $('.linki').slideToggle();
  
 });
-$('.linki').hide();
+
+window.onresize = () => {
+  console.log(window.outerWidth);
+  if(window.outerWidth < 1040){
+    $(".linki").hide();
+  }else{
+    $(".linki").show();
+
+  }
+}

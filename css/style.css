@@ -4,6 +4,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: white;
   background-image: url("../img/810.png");
